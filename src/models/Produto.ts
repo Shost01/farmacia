@@ -8,5 +8,5 @@ export default interface Produto {
     laboratorio: string;
     preco: number;
     foto: string;
-    tema: Categoria | null;   
+    categoria: Categoria | null;   
 }
